@@ -59,7 +59,7 @@ p {
 .home-text p {
   text-align: center;
   font-size: 16px;
-  color: #4535AC; gap: 10px; margin-bottom: 40px;
+  color: #4130ab; gap: 10px; margin-bottom: 40px;
   border: 1px solid slateblue; border-radius: 10px; padding: 80px; margin-bottom: 20px;
 }
 .home-list ul li { display: grid; grid-template-rows: 1fr ;
@@ -68,7 +68,7 @@ p {
 
 
 
-.home-text p { font-family: comic sans ms; font-size: 16px; color: slateblue; gap: 10px; margin-bottom: 40px;
+.home-text p { font-family: comic sans ms; font-size: 16px; color: 6757CB; gap: 10px; margin-bottom: 40px;
   border: 1px solid slateblue; border-radius: 10px; padding: 80px; margin-bottom: 20px;
 }
 @media (min-width: 320px) {
