@@ -18,12 +18,22 @@
         </header>
         
         <nav class="info-list">
-        <h1> <u> Contact Information </u></h1>
-        <h2>Phone: 510-372-5218</h2>
-        <h3>Email: ksandoval@my.campus.edu</h3>
-        <h4> comments</h4>
-        <input type="text" name="comments" placeholder="Enter your comments here">
-      ]  <button type="submit">Submit</button>
-      
+            <fieldset>
+                <legend>Contact Information</legend>
+                <h1>Contact Me</h1>
+                <h2>Phone: 510-372-5218</h2>
+                <h3>Email: ksandoval@my.campus.edu</h3>
+            </fieldset>
+        </nav>
+
+        <nav id="contact-form">
+        <label for="name-id-input" for="name">Name:</label>
+        <input id="name-id-input" type="text" name="name" placeholder="Enter your name">
+        <label for="email-id-input" for="email">Email:</label>
+        <input id="email-id-input" type="email" name="email" placeholder="Enter your email">
+        <label for="message-id-input" for="message">Message:</label>
+        <textarea id="message-id-input" name="message" placeholder="Enter your message here"></textarea>
+        <button type="submit">Submit</button>
+        </nav>
     </body>
 </html>
