@@ -338,7 +338,7 @@ p {
   }
 }
 
-.projects-list ul li a { text-decoration: none; list-style: none; color: rgb(158, 60, 60); font-size: 18px; font-weight: bold; text-align: center;
+.projects-list ul li a { text-decoration: none; list-style: none; color: #682727; font-size: 18px; font-weight: bold; text-align: center;
 }
 
 .project-info p { font-family: comic sans ms; font-size: 16px; color: rgb(158, 60, 60); gap: 10px; margin-bottom: 40px;
