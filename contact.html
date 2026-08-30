@@ -26,14 +26,21 @@
             </fieldset>
         </nav>
 
-        <nav id="contact-form">
-        <label for="name-id-input" for="name">Name:</label>
-        <input id="name-id-input" type="text" name="name" placeholder="Enter your name">
+      <form id="contact-form" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+        <span class="error-text" id="name-error"></span>
+
+
         <label for="email-id-input" for="email">Email:</label>
-        <input id="email-id-input" type="email" name="email" placeholder="Enter your email">
+        <input id="email-id-input" type="email" name="email" placeholder="Enter your email" required/>
+        <span class="error=text" id="email-error"></span>
+
+
         <label for="message-id-input" for="message">Message:</label>
         <textarea id="message-id-input" name="message" placeholder="Enter your message here"></textarea>
-        <button type="submit">Submit</button>
-        </nav>
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+        <script src="scpript.js"></script>
     </body>
-</html>
+</html>>

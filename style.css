@@ -344,3 +344,5 @@ p {
 .project-info p { font-family: comic sans ms; font-size: 16px; color: rgb(158, 60, 60); gap: 10px; margin-bottom: 40px;
   border: 1px solid rgb(158, 60, 60); border-radius: 10px; padding: 80px; margin-bottom: 20px;
 }
+
+.text-input {color: #0D6363; background-color: aquamarine;}
